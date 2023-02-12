@@ -542,7 +542,7 @@ namespace KeyAuth {
 
 			std::string to_return;
 
-			curl_easy_setopt(curl, CURLOPT_URL, STR("https://keyauth.win/api/1.0/"));
+			curl_easy_setopt(curl, CURLOPT_URL, STR("https://keyauth.win/api/1.1/"));
 
 			curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0);
 			curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0);

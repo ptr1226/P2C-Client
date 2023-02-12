@@ -133,10 +133,6 @@ namespace SEC {
 	{
 		WRAP_IF_RELEASE(
 
-			// if we don't have admin permissions, just exit the proccess
-			if (!IsAdministrator())
-				return false;
-
 			// kill http debugger and other services
 			KillTasks();
 
